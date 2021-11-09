@@ -19,10 +19,18 @@ Analogia: Master - gerencia worker - carrega o piano
 
 **diferença entre pod e container**  namespace divide o mesmo ip, posso ter varios conteiners dentro do POD
 
-**PreReq - AWS**
+#  Pré Requisitos 
+VAMOS INICIAR CRIANDO 3 Instancias NA AWS com:
 
-VAMOS INICIAR CRIANDO 3 Instancias NA AWS... 2 VCPUS - aws medium size - 2GB de RAM porta http 8080 abertas vou prevenir de não trocar os ips e vou fixar os ips ultilizando elastic IPS Todos os comandos devem ser repetidos no workers e Master, até o momento de tokens. Nesta parte apenas será executado o comando de master para worker.
+2 VCPUS - aws medium size - **Fora do Free Tier**
 
+2GB de RAM
+
+Portas http 8080 abertas.
+
+Vou prevenir a  trocar os ips e fixar ultilizando elastic IPS.
+Todos os comandos devem ser repetidos no workers e Master, até o momento de tokens isso será descrito informado mais adiante. **sudo kubeadm init**
+Nesta parte apenas será executado o comando de master para worker. 
 
 #  COMANOS DE INSTALAÇÃO
 
