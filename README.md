@@ -1,6 +1,6 @@
 # kubernetes
 
-Todos os projetos que particei até agora sempre encontramos a infra pronta, VM, cluster, On primesse e a partir apenas instalavamos nossos produtos. Com a possibilidade de eu ter que criar esses Cluster e agindo de forma preventiva comecei a pesquisar e tentar entender como fazer esta tipo de demanda.
+Todos os projetos que particei até agora sempre encontramos a infra pronta, e a partir apenas instalavamos nossos produtos. Com a possibilidade de eu ter que criar esses Cluster e agindo de forma preventiva comecei a pesquisar e tentar entender como fazer esta tipo de demanda.
 
 O resultado final foi a criação de um cluster com 3 instancias na aws em 20 minutos de laboratório.
 
