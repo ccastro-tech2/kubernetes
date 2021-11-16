@@ -1,3 +1,5 @@
+Simulado
+Dia 1
 Qual comando realiza o download das imagens de componentes do Kubernetes, como o etcd ou API, antes da criação do cluster?
 R: kubeadm config images pull
 
