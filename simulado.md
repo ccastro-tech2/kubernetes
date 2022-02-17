@@ -1,3 +1,15 @@
+<p class="has-line-data" data-line-start="31" data-line-end="33">ANOTAÇÕES<br>
+1: Master e Workers
+2: componentes services, forma de pegar o deployment precisa do service para o deployment possa ser acessado de fora do cluster
+3 controler do pod? resposta replica Set.
+4: Controler do replica Set Resposta deployment
+NameSpace Cotas "limitação" isolar sua aplicação.
+Storage volume e Claim
+  
+  CLUSTER IP só acessa dentro do Cluster
+  Entender esse Role</p>
+
+
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Simulado_0"></a>Simulado</h1>
 <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 1</h2>
 <p class="has-line-data" data-line-start="4" data-line-end="6">Qual comando realiza o download das imagens de componentes do Kubernetes, como o etcd ou API, antes da criação do cluster?<br>
