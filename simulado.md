@@ -1,13 +1,13 @@
 <p class="has-line-data" data-line-start="31" data-line-end="33">ANOTAÇÕES<br>
-<p 1: Master e Workers </p>
-<p 2: componentes services, forma de pegar o deployment precisa do service para o deployment possa ser acessado de fora do cluster</p>
-<p 3 controler do pod? resposta replica Set.</p>
-<p 4: Controler do replica Set Resposta deployment</p>
-<p NameSpace Cotas "limitação" isolar sua aplicação.</p>
+<p 1: Master e Workers <br>
+<p 2: componentes services, forma de pegar o deployment precisa do service para o deployment possa ser acessado de fora do cluster<br>
+<p 3 controler do pod? resposta replica Set.<br>
+<p 4: Controler do replica Set Resposta deployment<br>
+<p NameSpace Cotas "limitação" isolar sua aplicação.<br>
 <p Storage volume e Claim
-  </p>
-<p CLUSTER IP só acessa dentro do Cluster</p>
-<p Entender esse Role</p>
+  <br>
+<p CLUSTER IP só acessa dentro do Cluster<br>
+<p Entender esse Role<br>
 
 
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Simulado_0"></a>Simulado</h1>
