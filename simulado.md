@@ -6,8 +6,8 @@
 <p NameSpace Cotas "limitação" isolar sua aplicação.</p>
 <p Storage volume e Claim
   </p>
-  CLUSTER IP só acessa dentro do Cluster</p>
-  Entender esse Role</p>
+<p CLUSTER IP só acessa dentro do Cluster</p>
+<p Entender esse Role</p>
 
 
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Simulado_0"></a>Simulado</h1>
