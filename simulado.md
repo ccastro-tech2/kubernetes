@@ -7,6 +7,8 @@
 <p class="has-line-data" data-line-start="31" data-line-end="33"> Storage volume e Claim  <br>
 <p class="has-line-data" data-line-start="31" data-line-end="33"> class="has-line-data" data-line-start="31" data-line-end="33"> CLUSTER IP só acessa dentro do Cluster<br>
 <p class="has-line-data" data-line-start="31" data-line-end="33"> Entender esse Role<br>
+<p class="has-line-data" data-line-start="31" data-line-end="33"> Service?<br>
+<p class="has-line-data" data-line-start="31" data-line-end="33">Resposta: Um serviço no Kubernetes é uma abstração que define um conjunto lógico de Pods e uma política pela qual acessá-los. Serviços permitem um baixo acoplamento entre os Pods      dependentes. Um serviço é definido usando YAML (preferencialmente) ou JSON, como todos objetos Kubernetes.<br>
 
 
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Simulado_0"></a>Simulado</h1>
