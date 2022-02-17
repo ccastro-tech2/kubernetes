@@ -35,22 +35,22 @@ R: Não</p>
 R: kubectl get nodes</p>
 
 
-<p class="has-line-data" data-line-start="28" data-line-end="30"> dia 2 /p>
-<p class="has-line-data" data-line-start="28" data-line-end="30">1º  Eu tenho um arquivo .yaml que possui as informações de um deployment que eu preciso criar. A pergunta é: Qual o comando é utilizado para criar um deployment especificado a partir de um arquivo yaml?/p>
-<p class="has-line-data" data-line-start="28" data-line-end="30"> resposta kubectl creat -f /p>
+<h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 2</h2>
+<p class="has-line-data" data-line-start="28" data-line-end="30">1º  Eu tenho um arquivo .yaml que possui as informações de um deployment que eu preciso criar. A pergunta é: Qual o comando é utilizado para criar um deployment especificado a partir de um arquivo yaml?<br>
+<p class="has-line-data" data-line-start="28" data-line-end="30"> resposta kubectl creat -f<br>
 
  <p class="has-line-data" data-line-start="28" data-line-end="30">2º Qual o comando utilizado para exibir os detalhes sobre determinado deployment, sendo que sua saída deverá ser no padrão yaml?/p>
- <p class="has-line-data" data-line-start="28" data-line-end="30"> resposta kubectl get deploy nome_deploy -o yaml /p>  
- <p class="has-line-data" data-line-start="28" data-line-end="30"> 3º O que melhor define um service node port?  /p>  
- <p class="has-line-data" data-line-start="28" data-line-end="30"> RESPOSTA - Permite que determinada porta de todos os nodes do cluster seja ultilizada pelo cliente para acessar os endpoints desse service/p>  
- <p class="has-line-data" data-line-start="28" data-line-end="30"> 4º O que melhor define um service clusterIP?  /p>  
- <p class="has-line-data" data-line-start="28" data-line-end="30"> Resposta -> Automaticamente realiza a criação de um ip privado, que somente poderá ser acessado de dentro do cluster /p> 
-<p class="has-line-data" data-line-start="28" data-line-end="30"> 5º O que melhor define um service load balancer? /p>  
-  <p class="has-line-data" data-line-start="28" data-line-end="30">Resposta -> quando integrado com seu cloud provider, automaticamente realiza a criação de um ip publico, que sera ultilizado pelo cliente para acessar os endpointss desse service /p>  
-<p class="has-line-data" data-line-start="28" data-line-end="30"> 6º Dentro de um arquivo .yaml onde estou definindo as caracteristicas de meu deployment, me bateu a dúvida sobre como é a sintaxe correta quando eu quero destinar apenas 20% de um CPU para o container, você se lembra?  /p>  
-<p class="has-line-data" data-line-start="28" data-line-end="30"> Resposta -> cpu: 0.2  /p> 
-<p class="has-line-data" data-line-start="28" data-line-end="30"> 7º Sempre quando estou criando meus yaml para definir um novo deployment, sempre fico na duvida na hora de limitar os recursos como CPU e memória. Qual a finalidade do requests e o limits?  /p> 
-<p class="has-line-data" data-line-start="28" data-line-end="30"> Resposta -> O request determina o valor que será garantido ao container, enquanto o limits determina o valor que o container não poderá passar  /p>   
+ <p class="has-line-data" data-line-start="28" data-line-end="30"> resposta kubectl get deploy nome_deploy -o yaml <br>
+ <p class="has-line-data" data-line-start="28" data-line-end="30"> 3º O que melhor define um service node port?  <br> 
+ <p class="has-line-data" data-line-start="28" data-line-end="30"> RESPOSTA - Permite que determinada porta de todos os nodes do cluster seja ultilizada pelo cliente para acessar os endpoints desse service<br>
+ <p class="has-line-data" data-line-start="28" data-line-end="30"> 4º O que melhor define um service clusterIP?  <br>
+ <p class="has-line-data" data-line-start="28" data-line-end="30"> Resposta -> Automaticamente realiza a criação de um ip privado, que somente poderá ser acessado de dentro do cluster <br>
+<p class="has-line-data" data-line-start="28" data-line-end="30"> 5º O que melhor define um service load balancer?<br>
+  <p class="has-line-data" data-line-start="28" data-line-end="30">Resposta -> quando integrado com seu cloud provider, automaticamente realiza a criação de um ip publico, que sera ultilizado pelo cliente para acessar os endpointss desse service <br>
+<p class="has-line-data" data-line-start="28" data-line-end="30"> 6º Dentro de um arquivo .yaml onde estou definindo as caracteristicas de meu deployment, me bateu a dúvida sobre como é a sintaxe correta quando eu quero destinar apenas 20% de um CPU para o container, você se lembra?  <br>
+<p class="has-line-data" data-line-start="28" data-line-end="30"> Resposta -> cpu: 0.2 <br>
+<p class="has-line-data" data-line-start="28" data-line-end="30"> 7º Sempre quando estou criando meus yaml para definir um novo deployment, sempre fico na duvida na hora de limitar os recursos como CPU e memória. Qual a finalidade do requests e o limits?  <br>
+<p class="has-line-data" data-line-start="28" data-line-end="30"> Resposta -> O request determina o valor que será garantido ao container, enquanto o limits determina o valor que o container não poderá passar  <br>
 
 <p class="has-line-data" data-line-start="28" data-line-end="30"> 8º Como eu faço para criar, via linha de comando, um namespace?  /p> 
   <p class="has-line-data" data-line-start="28" data-line-end="30"> 8º kubectl create namespace NOME_NAMESPACE   /p> 
