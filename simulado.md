@@ -52,13 +52,13 @@ R: kubectl get nodes</p>
 <p class="has-line-data" data-line-start="28" data-line-end="30"> 7º Sempre quando estou criando meus yaml para definir um novo deployment, sempre fico na duvida na hora de limitar os recursos como CPU e memória. Qual a finalidade do requests e o limits?  <br>
 <p class="has-line-data" data-line-start="28" data-line-end="30"> Resposta -> O request determina o valor que será garantido ao container, enquanto o limits determina o valor que o container não poderá passar  <br>
 
-<p class="has-line-data" data-line-start="28" data-line-end="30"> 8º Como eu faço para criar, via linha de comando, um namespace?  /p> 
-  <p class="has-line-data" data-line-start="28" data-line-end="30"> 8º kubectl create namespace NOME_NAMESPACE   /p> 
+<p class="has-line-data" data-line-start="28" data-line-end="30"> 8º Como eu faço para criar, via linha de comando, um namespace? <br>
+  <p class="has-line-data" data-line-start="28" data-line-end="30"> 8º kubectl create namespace NOME_NAMESPACE   <br>
     
-<p class="has-line-data" data-line-start="28" data-line-end="30"> 9º Quando estou criando um LimitRange, o defaultrequest determina o valor que será garantido aos containers, enquanto o limits determina o valor que os containers não poderão ultrapassar.   /p> 
-  <p class="has-line-data" data-line-start="28" data-line-end="30"> resposta 9º -> verdadeiro    /p> 
+<p class="has-line-data" data-line-start="28" data-line-end="30"> 9º Quando estou criando um LimitRange, o defaultrequest determina o valor que será garantido aos containers, enquanto o limits determina o valor que os containers não poderão ultrapassar.   <br>
+  <p class="has-line-data" data-line-start="28" data-line-end="30"> resposta 9º -> verdadeiro   <br>
 
-<p class="has-line-data" data-line-start="28" data-line-end="30"> 10º Qual o comando utilizado para que determinado node pare de receber novos containers?   /p> 
-  <p class="has-line-data" data-line-start="28" data-line-end="30"> resposta 10º -> kubectl taint node elliot-02 key1=value1:NoSchedule  /p> 
+<p class="has-line-data" data-line-start="28" data-line-end="30"> 10º Qual o comando utilizado para que determinado node pare de receber novos containers?  <br>
+  <p class="has-line-data" data-line-start="28" data-line-end="30"> resposta 10º -> kubectl taint node elliot-02 key1=value1:NoSchedule <br>
     
     
