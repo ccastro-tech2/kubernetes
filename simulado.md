@@ -97,13 +97,16 @@ R: kubectl get nodes</p>
   <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Qual o nome dos arquivos que o Helm utiliza para realizar a instalação e configuração de aplicações?</h2>
   <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></ahelm chart</h2>
    
-  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
-  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
-  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
-  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
-  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
-  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
-  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
-  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+ <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a> Dia 5 </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Qual a definição para o Ingress?
+ </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>O Ingress expõe rotas HTTP e HTTPS de fora do cluster para serviços dentro do cluster. O roteamento de tráfego é controlado pelas regras definidas no recurso do Ingress. </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Como eu posso visualizar os Ingress criados em meu cluster? </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl get ingress </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Estou criando um arquivo yaml para definir um novo Ingress para minha app. Qual opção define o tipo de resource que eu estou criando? </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kind: Ingress </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Como eu posso ver os detalhes de um Ingress criado? Escolha duas alternativas </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl describe ingresses.extensions app-ingress </h2>
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a> </h2>
  
 
