@@ -1,0 +1,10 @@
+dois tipos de volume 
+empty dir grudado no pod inicia vazio - compartilha recursos todos os pods tem acesso
+pod-emptyDir.yml
+volumes:
+- name: giropops
+emptyDir: {}
+
+Se remover o pod o volume apaga.
+
+
