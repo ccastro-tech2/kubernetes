@@ -1,6 +1,7 @@
 <p class="has-line-data" data-line-start="31" data-line-end="33">ANOTAÇÕES<br>
 <p class="has-line-data" data-line-start="31" data-line-end="33">1: Master e Workers <br>
  <p class="has-line-data" data-line-start="31" data-line-end="33">1: ReplicaSet controla os pods <br>
+  <p class="has-line-data" data-line-start="31" data-line-end="33">1: Deamonset você não escolha quantas replicas! vantagem???? quando vc precisa que a aplicação sempre up <br>
 <p class="has-line-data" data-line-start="31" data-line-end="33">2: componentes services, forma de pegar o deployment precisa do service para o deployment possa ser acessado de fora do cluster<br>
 <p class="has-line-data" data-line-start="31" data-line-end="33"> 3 controler do pod? resposta replica Set.<br>
 <p class="has-line-data" data-line-start="31" data-line-end="33"> 4: Controler do replica Set Resposta deployment<br>
