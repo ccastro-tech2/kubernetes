@@ -76,4 +76,34 @@ R: kubectl get nodes</p>
     <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl rollout status daemonset meu_daemonset</h2>   
     <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Qual o comando utilizado para fazer o rollback de um daemonset para uma determina 'revision'?</h2>   
  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl rollout undo ds meu_deamonset --to-revision=1</h2> 
-    
+ 
+ <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a> Qual a definição para PV?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Persistence Volume</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Qual a definição para PVC?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Persistence Volume Claim</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>O que é PV?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Um pedaço de storage em nosso cluster, provisionado pelo administrador do cluster ou pelo Storage Class</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Estou editando um arquivo yaml para a criação de um Job. Qual é a linha que define o tipo de resource que estou criando?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Kind: job</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Como eu posso ver os logs da execução de um Job?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl logs nome_do_container_responsavel_pelo_job</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Preciso criar um secret e seu conteúdo será o conteúdo de um arquivo, como eu faço?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl create secret generic my-secret --from-file=arquivo_desejado.txt</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Qual a função de um InitContainer?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Executar algumas tarefas antes do container principal ser iniciado</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Para que serve um ClusterRoleBinding?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Para associar o ServiceAccount com o ClusterRole</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Qual o nome dos arquivos que o Helm utiliza para realizar a instalação e configuração de aplicações?</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></ahelm chart</h2>
+   
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+  <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 4</h2>
+ 
+
