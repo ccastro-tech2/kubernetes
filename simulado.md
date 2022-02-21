@@ -107,6 +107,8 @@ R: kubectl get nodes</p>
     <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kind: Ingress </h2>
     <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Como eu posso ver os detalhes de um Ingress criado? Escolha duas alternativas </h2>
     <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl describe ingresses.extensions app-ingress </h2>
-    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a> </h2>
- 
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Preciso editar um Ingress já criado, o que eu devo fazer?
+ </h2>
+   <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl edit ingress nome_do_ingress
+  </h2>
 
