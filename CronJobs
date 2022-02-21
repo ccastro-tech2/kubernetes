@@ -1,0 +1,17 @@
+kubectl create -f primeiro-cron.yaml
+
+# kubectl get cronjobs
+
+# kubectl describe cronjobs.batch giropops-cron
+
+# kubectl get jobs --watch
+
+# kubectl get cronjob giropops-cron
+
+# kubectl get pods
+
+#kubectl  logs giropops-cron-1534979940-vcwdg
+
+# kubectl get pods
+
+# kubectl delete cronjob giropops-cron
