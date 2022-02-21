@@ -64,5 +64,16 @@ R: kubectl get nodes</p>
   <p class="has-line-data" data-line-start="28" data-line-end="30"> resposta 10º -> kubectl taint node elliot-02 key1=value1:NoSchedule <br>
    
 <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 3</h2>   
-    
+<h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a> O que é um DaemonSet?</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></Responsavel por gerenciar um grupo de pods, onde teremos um pod por node</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>O que é um ReplicaSet?</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Responsavel por gerenciar um grupo de pods, onde teremos o numero de pods que for solicitado</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Quero listar todos os labels de determinado node, como eu faço?</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl label nodes meu_node --list</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Eu adicionei um label chamado NODE=tosko em todos os meus nodes do cluster. Como eu posso remover esse label de todos os nodes?</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl label nodes --all NODE-</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Qual o comando utilizado para acompanhar um rollout?</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl rollout status daemonset meu_daemonset</h2>   
+    <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Qual o comando utilizado para fazer o rollback de um daemonset para uma determina 'revision'?</h2>   
+ <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>kubectl rollout undo ds meu_deamonset --to-revision=1</h2> 
     
