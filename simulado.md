@@ -62,5 +62,7 @@ R: kubectl get nodes</p>
 
 <p class="has-line-data" data-line-start="28" data-line-end="30"> 10º Qual o comando utilizado para que determinado node pare de receber novos containers?  <br>
   <p class="has-line-data" data-line-start="28" data-line-end="30"> resposta 10º -> kubectl taint node elliot-02 key1=value1:NoSchedule <br>
+   
+<h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Dia_1_1"></a>Dia 3</h2>   
     
     
